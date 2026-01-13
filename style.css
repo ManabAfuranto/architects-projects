@@ -70,9 +70,45 @@
     width: 100%;
 }
 
-
-
 /*banner ends here*/
+
+/*section team starts here*/
+
+.team-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    align-items: center;
+}
+.team-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 100%;
+}
+.team-info{
+    margin-left: 45px;
+}
+.team-info .first{
+    color: lightslategray;
+    font-weight: 500;
+    font-size: 1.6rem;
+}
+.team-info .second{
+    font-weight: 700;
+    font-size: 1.6rem;
+}
+.team-info .three{
+    font-size: 1.6rem;
+    color: #FF900E;
+}
+.team-info p{
+    font-size: 0.8rem;
+    color: lightslategray;
+    line-height: 25px;
+}
+
+/*section team ends here*/
 
 @media screen and (max-width:576px) {
     .navbar{

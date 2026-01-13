@@ -1,3 +1,84 @@
+/*common tag starts here*/
+
 .work-sans{
     font-family: Work Sans;
+}
+.display-flex{
+    display: flex;
+}
+.container{
+    background-color: #EDE1D3 ;
+}
+.btn-tag{
+    background-color: #FF900E;
+    color: white;
+    font-size: 1rem;
+    padding: 18px;
+    border: none;
+    border-radius: 8px;
+}
+
+/*common tag ends here*/
+
+/*navbar starts here*/
+
+.navbar{
+    justify-content: space-between;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+}
+.navbar li{
+    list-style: none;
+    
+}
+.navbar ul{
+    gap: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    color: lightslategray;
+}
+.navbar h3{
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+/*navbar ends here*/
+
+/*banner starts here*/
+.banner-content{
+    max-width: 1100px;
+    margin: 0 auto; 
+}
+.banner-title{
+    max-width: 840px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.banner-title h3{
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+.banner-title p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 25px;
+}
+.banner-content img{
+    width: 100%;
+}
+
+
+
+/*banner ends here*/
+
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+    }
+    .navbar ul{
+        flex-direction: column;
+    }
 }

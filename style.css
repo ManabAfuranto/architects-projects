@@ -110,12 +110,73 @@
 
 /*section team ends here*/
 
+
+/*features enjoy section starts here*/
+
+.border{
+    border-left: 5px solid #FF900E;
+}
+.features-enjoy-content{
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 100px;
+    gap:100px
+}
+.features-title{
+    width: 580px;
+}
+.features-title h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: -10px;
+}
+.features-title p{
+    font-size: 0.8rem;
+    color: lightslategray;
+    line-height: 22px;
+    margin-top: -10px;
+}
+.features-card .card{
+    background-color: aliceblue;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 5px 5px 7px lightslategray;
+}
+.card h5, p{
+    padding: 10px;
+}
+.card h5{
+    margin-bottom: -10px;
+}
+.features-image img{
+    width: 500px;
+}
+button{
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 25px 30px;
+}
+.btn{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.type{
+    margin-top: -60px;
+    margin-left: -60px;
+}
+
+
+/*features enjoy section ends here*/
+
+
 /*Facts Card item starts here*/
 
 .Facts-Card-content{
     max-width: 1100px;
     margin: 0 auto;
-    margin-top: 100px;
+    margin-top: 80px;
 }
 .Facts-items{
     width: 540px;
@@ -196,6 +257,23 @@
 
 /*Sponspors items ends here*/
 
+/*footer section starts here*/
+
+.landing-page{
+    max-width: 1100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 0.9rem;
+    background-color: bisque;
+    color: lightslategray;
+    padding: 2px;
+    border-radius: 7px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+
+
+/*footer section ends here*/
 
 
 /*Mobile Device*/
@@ -229,6 +307,19 @@
         justify-items: center;
         gap: 5px;
     }
+
+    .features-enjoy-content{
+        flex-direction: column;
+    }
+    .features-image img{
+        width: 100%;
+    }
+    .features-title, .features-card .card{
+        width: 450px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    
     .Sponspors-title{
         width: 400px;
         margin: 0 auto;
@@ -238,6 +329,9 @@
         grid-template-columns: repeat(1, 1fr);
         justify-items: center;
         gap: 25px;
+    }
+    .landing-page{
+        width: 450px;
     }
 }
 
@@ -267,6 +361,12 @@
         text-align: center;
         margin: 0 auto;
     }
+    .features-enjoy-content{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 80px;
+    }
+
     .Facts-items{
         text-align: center;
         margin: 0 auto;
@@ -281,6 +381,11 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 25px;
         justify-items: center;
+    }
+    .landing-page{
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 80px;
     }
 
 }
